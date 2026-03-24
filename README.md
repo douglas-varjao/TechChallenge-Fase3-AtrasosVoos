@@ -1,6 +1,7 @@
 # ✈️ TechChallenge - Fase3: Atrasos de Voos
 
 **Dataset:** ~5,7 milhões de voos domésticos nos EUA em 2015 - [Acessar Base de Dados](https://drive.google.com/drive/u/0/folders/1fm1c9CqkzhSaC4RE6DZNQwOzm1KAOOqC)
+
 **Problema:** Classificação binária — o voo vai atrasar mais de 15 minutos?  
 **Critério:** FAA (Federal Aviation Administration) — atraso oficial > 15 min na chegada  
 **Destaques Técnicos:** K-Means, PCA, LightGBM, XGBoost, MLP e SHAP Values.
