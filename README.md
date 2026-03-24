@@ -19,6 +19,21 @@
 
 ---
 
+## 🚀 Como Executar o Projeto (Acesso aos Dados)
+
+Como os arquivos originais em formato CSV (`flights.csv`, `airlines.csv`, `airports.csv` e `clima_2015.csv`) excedem o limite de tamanho permitido pelo GitHub (100MB), os dados foram alocados em nuvem. 
+
+Para reproduzir o código no Google Colab, siga os passos:
+
+1. Acesse a base de dados através deste **[Link do Google Drive](https://drive.google.com/drive/u/0/folders/1fm1c9CqkzhSaC4RE6DZNQwOzm1KAOOqC)**.
+2. Faça o download dos arquivos ou crie um atalho para o seu próprio Drive.
+3. No Passo 00/01 do *notebook*, o código fará a montagem do Drive (`drive.mount`). Certifique-se de que a variável `PATH` reflete a estrutura de pastas do seu ambiente. O padrão configurado no código é:
+
+```python
+PATH = 'drive/MyDrive/TechChallenge_Fase3_AtrasosVoos/database/'
+```
+---
+
 ## 1. Decisões de Limpeza
 
 | Decisão | Justificativa de Negócio |
